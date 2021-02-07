@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry Monster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="container">
+        <div id="navbar-brand">
+            <h2>Hungry Monster</h2>
+        </div>
+        <div id="main-menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Recipes</a>
+            <a href="#">Blog</a>
+        </div>
+    </header>
+
+    <!-- Searching Area -->
+    <div class="container">
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Search for Meal by first letter">
+            <button onclick="searchAction()">Search</button>
+        </div>
+    </div>
+
+    <!-- Display Singe food details -->
+    <div class="container">
+        <div id="food-details">
+        </div>
+    </div>
+
+    <!-- Display food items -->
+    <div class="container">
+        <div id="food-container">
+        </div>
+    </div>
+
+    <!-- Call javaScript file  -->
+    <script src="app.js"></script>
+</body>
+</html>
